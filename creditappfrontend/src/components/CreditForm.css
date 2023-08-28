@@ -1,0 +1,80 @@
+.credit-form{
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+
+.credit-title{
+  color:#F0552C;
+  text-align: center;
+}
+.credit-button{
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  border: none;
+  background-color: #F0552C;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.home-credit-div{
+  width: 100%;
+    margin-top: -30px;
+}
+
+.home-credit{
+  width: 100%;
+  height: 45px;
+    background-color:#F0552C;
+}
+.credit-logo{
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: -12px;
+}
+
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+  max-width: 364px;
+  width: 100%;
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.close-modal {
+  background-color: #F0552C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

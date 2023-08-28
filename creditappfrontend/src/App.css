@@ -1,0 +1,66 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(255,255,255,0.1),
+    rgba(255,255,255,0.3)
+  ),
+  url(https://img.freepik.com/free-vector/abstract-white-shapes-background_79603-1362.jpg?w=740&t=st=1692884895~exp=1692885495~hmac=605977b91ee741de3b40f2cc88b2a5d2d4764033b7cca1ab6e73d42ecdefd90d);
+  background-size: cover;
+  background-position: center;
+}
+form{
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+
+h1{
+  color:#F0552C;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+.button-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: #F0552C;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.app-button{
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border: none;
+  background-color: #F0552C;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.kocfinans-logo{
+  width: 360px;
+  height: auto;
+  margin-top: 18px;
+  margin-bottom: -12px;
+}
